@@ -1,0 +1,89 @@
+.principal{
+    margin: auto;
+    width: 80%;
+    background-color: blueviolet;
+}
+#img01, #img02{
+    width: 10%;
+    display: inline;
+}
+
+ul{
+    list-style: none;
+    display: inline;
+}
+
+ul li{
+    display: inline;
+    margin-right: 15px;
+    font-size: 12px;
+}
+
+header{
+    margin: auto;
+    width: 80%;
+    background-color: rgb(255, 255, 0);
+
+}
+section{
+    background-color: rgb(247, 224, 196);
+    margin: auto;
+    width: 80%;
+    overflow: auto;
+}
+nav{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+article{
+    width: 60%;
+    background-color: rgb(8, 0, 250);
+    float: left;
+}
+aside{
+    width: 20%;
+    float: left;
+    height: 100%;
+}
+
+footer{
+    margin: auto;
+    width: 80%;
+    background-color: rgb(91, 255, 2);
+}
+
+
+#header{
+    margin: auto;
+    width: 80%;
+    background-color: rgb(255, 255, 0);
+
+}
+#section{
+    background-color: rgb(247, 224, 196);
+    margin: auto;
+    width: 80%;
+    overflow: auto;
+}
+#nav{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+#article{
+    width: 60%;
+    background-color: rgb(8, 0, 250);
+    float: left;
+}
+#aside{
+    width: 20%;
+    float: left;
+    height: 100%;
+}
+
+#footer{
+    margin: auto;
+    width: 80%;
+    background-color: rgb(91, 255, 2);
+}

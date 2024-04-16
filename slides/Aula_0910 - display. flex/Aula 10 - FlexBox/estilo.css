@@ -1,0 +1,311 @@
+#main{
+    background-color: dodgerblue;
+    display: flex;
+}
+
+.internas{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+}
+#main1{
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.internas1{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+}
+
+#main2{
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.internas2{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+}
+
+#main3{
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.internas3{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+}
+
+#main4{
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.internas4{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+}
+
+#main5{
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.internas5{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+}
+
+#main6{
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-start;
+}
+
+.internas6{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+}
+
+#main7{
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+}
+
+.internas7{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+}
+
+#main8{
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+.internas8{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+#main9{
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+
+.internas9{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+}
+
+#main10{
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+}
+
+.internas10{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+}
+
+#main11{
+    background-color: dodgerblue;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.internas11{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+}
+
+#main12{
+    background-color: dodgerblue;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.internas12{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+}
+
+#main13{
+    background-color: dodgerblue;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.internas13{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+}
+
+#main14{
+    background-color: dodgerblue;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.internas14{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+}
+
+#main15{
+    background-color: dodgerblue;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#internas16{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 0;
+}
+
+#internas17{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 1;
+}
+#internas18{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 2;
+}
+#internas19{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 3;
+}
+#internas20{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 4;
+}
+#internas21{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 5;
+}
+
+
+#main16{
+    background-color: dodgerblue;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#internas22{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 2;
+    flex-shrink: 0;
+}
+
+#internas23{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 2;
+    flex-shrink: 0;
+}
+#internas24{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 2;
+    flex-shrink: 0;
+}
+#internas25{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+#internas26{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+#internas27{
+    background-color:chartreuse;
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+
+

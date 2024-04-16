@@ -1,0 +1,16 @@
+.first:first-child {
+    background-color: rgb(255, 0, 0);
+}
+
+.hover:hover {
+    font-size: large;
+    background-color: blue;
+}
+
+.qualquer:nth-child(odd) {
+    background-color: rgb(255, 0, 0);
+}
+
+.last:last-child {
+    background-color: rgb(255, 0, 0);
+}
