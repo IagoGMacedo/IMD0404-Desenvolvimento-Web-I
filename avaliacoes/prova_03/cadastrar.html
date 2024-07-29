@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main>
+      <a class="" href="menus.html" role="button">Voltar para menu</a>
+      <div
+        class="container d-flex justify-content-center align-items-center vh-100"
+      >
+        <div class="row justify-content-center w-100">
+          <div class="col-md-6">
+            <div class="border rounded p-4 bg-white shadow">
+              <h3 class="text-center mb-4">Cadastrar veículos</h3>
+              <form id="formVehicles" novalidate>
+                <div class="form-group">
+                  <label for="marcaInput" class="sr-only">Marca</label>
+                  <input
+                    type="text"
+                    name="marca"
+                    id="marcaInput"
+                    class="form-control"
+                    placeholder="Marca"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="modeloInput" class="sr-only">Modelo</label>
+                  <input
+                    type="text"
+                    name="modelo"
+                    id="modeloInput"
+                    class="form-control"
+                    placeholder="Modelo"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="anoFabricacaoInput" class="sr-only"
+                    >Ano de fabricação</label
+                  >
+                  <input
+                    type="text"
+                    name="anoFabricacao"
+                    id="anoFabricacaoInput"
+                    class="form-control"
+                    placeholder="Ano de fabricação"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="corInput" class="sr-only">Cor</label>
+                  <input
+                    type="text"
+                    name="cor"
+                    id="corInput"
+                    class="form-control"
+                    placeholder="Cor"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="tipoInput" class="sr-only">Tipo</label>
+                  <input
+                    type="text"
+                    name="tipo"
+                    id="tipoInput"
+                    class="form-control"
+                    placeholder="Tipo"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="kilometragemInput" class="sr-only"
+                    >Kilometragem</label
+                  >
+                  <input
+                    type="text"
+                    name="kilometragem"
+                    id="kilometragemInput"
+                    class="form-control"
+                    placeholder="Kilometragem"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="numeroPortasInput" class="sr-only"
+                    >Número de portas</label
+                  >
+                  <input
+                    type="text"
+                    name="numeroPortas"
+                    id="numeroPortasInput"
+                    class="form-control"
+                    placeholder="Número de portas"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="precoInput" class="sr-only">Preço</label>
+                  <input
+                    type="text"
+                    name="preco"
+                    id="precoInput"
+                    class="form-control"
+                    placeholder="Preço"
+                  />
+                </div>
+                <button
+                  type="submit"
+                  name="register"
+                  class="btn btn-primary btn-block"
+                  id="register"
+                >
+                  Cadastrar
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="cadastrarScript.js"></script>
+  </body>
+</html>
